@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Database Management System by sonamsinha</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/sonamsinha/dbms">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Database Management System</h1>
+            <h2>Bank Database ManagementSystem</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/sonamsinha/dbms/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/sonamsinha/dbms/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="dbms" class="anchor" href="#dbms" aria-hidden="true"><span class="octicon octicon-link"></span></a>dbms</h1>
+
+<p>Bank Database Management System
+The purpose of this project is to create a database management system for a bank. Oracle 11g has been used as the underlying database. The DDL and DML statements have been written using Oracle PL/SQL developer. This project intends to provide a simplistic approach towards designing a database for a banking system. 
+In any banking database system the most important relationship is that of the customer to the account. In general there are several categories and types of accounts a customer can have. For this project I have taken into consideration the following types of accounts: -</p>
+
+<ul>
+<li>    Credit Deposit
+</li>
+<li>  Money Market
+</li>
+<li>    Individual Retirement 
+</li>
+<li>    Checking
+</li>
+<li>    Saving
+</li>
+</ul>
+
+<p>As a part of this project the essential details of the customer are to be captured like name, address, date of birth, phone number, email, etc. A customer id is assigned to every customer who wants to be a part of the banking system. This customer id acts as a key to the other details related to the customer such as account information, loan information and credit card information. The accounts table carries important information about the account such as the balance in the account and the type of the account. Each of the entries of the account carry a customer id associated with the account to form a correct relation.
+Going with the industry standard I have chosen to include the details of any credit card or loan that has been issued to the customer as a part of the banking relationship.
+As with every customer most of the accounts are opened at a branch so it is logical to have a relationship between a customer and a branch. Every branch can have one or many customers associated with it. This makes it easier for the administrator or a bank employee to look up and track the branch where an account was first opened. 
+This project encompasses a complete view of how a banking system database would look like. All the tables mentioned above intend to capture and retain important information related to the account and the customer.  SQL queries can then be used to query the details of customers, customer phone numbers, accounts, loans or credit cards.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/sonamsinha">sonamsinha</a> can be found on <a href="https://github.com/sonamsinha/dbms">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
